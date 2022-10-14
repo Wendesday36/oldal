@@ -1,0 +1,48 @@
+.menu ul{ list-style-type: none;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    font-weight: bold;
+   
+}
+
+.oldal ul li::before{
+  color: red; 
+ }
+.oldal h1{
+    text-align: center;
+    font-weight: lighter;
+}
+.menu a{
+    
+    text-decoration: none;
+    color: whitesmoke;
+}
+#container{
+    width:100%;
+    max-width: 800px;
+    color: white;
+}
+.oldal{ grid-template-columns: auto auto auto;
+    margin: auto;
+    display: grid;
+
+}
+.oldal img{ width: 100px;
+   
+}
+body{ background-color: black;
+    font-family:Arial, Helvetica, monospace;
+}
+.iparag{
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+.kep{
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    #menu ul{
+        grid-template-columns: auto ;
+    }
+}
