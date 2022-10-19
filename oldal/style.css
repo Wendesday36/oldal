@@ -1,0 +1,89 @@
+.menu ul{ list-style-type: none;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    font-weight: bold;
+   
+}
+
+.oldal ul li::before{
+  color: red; 
+ }
+.oldal h1{
+    text-align: center;
+    font-weight: lighter;
+}
+.menu a{
+    
+    text-decoration: none;
+    color: whitesmoke;
+}
+.container{
+    width:100%;
+    max-width: 800px;
+    color: white;
+    margin: auto;
+}
+.oldal{ grid-template-columns: auto auto auto;
+    margin: auto;
+    display: grid;
+
+}
+.oldal img{ width: 100px;
+   
+}
+body{ background-color: black;
+    font-family:Arial, Helvetica, monospace;
+}
+.iparag{
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+
+.kep{
+    text-align: center;
+}
+.masikoldal{
+    padding-top:50px;
+}
+.szoveg p{
+    text-align: justify;
+    font-weight:lighter;
+    font-size: medium;
+    color:azure
+}
+.szoveg h1{
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    text-align:left;
+
+}
+.szoveg{
+    padding-right: 450px;
+    margin: 0;
+}
+.minta img{
+    float: right;
+    width: 400px;
+}
+
+.harmadik{
+    padding-top: 200px;
+}
+.harmadik .eloszoveg{
+    text-align: center;
+    
+}
+.harmadik .eloszoveg h1{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+}
+.harmadik
+
+@media screen and (max-width: 500px) {
+    #menu ul{
+        grid-template-columns: auto ;
+    }
+}
