@@ -5,7 +5,18 @@
     font-weight: bold;
    
 }
-
+.menu a:hover{
+    color: hotpink;
+}
+.menu a:link{
+    color: white;
+}
+.menu a:visited{
+    color: white;
+}
+.menu a:active{
+    color:blue;
+}
 .oldal ul li::before{
   color: red; 
  }
@@ -18,10 +29,11 @@
     text-decoration: none;
     color: whitesmoke;
 }
-#container{
+.container{
     width:100%;
     max-width: 800px;
     color: white;
+    margin: auto;
 }
 .oldal{ grid-template-columns: auto auto auto;
     margin: auto;
@@ -31,16 +43,78 @@
 .oldal img{ width: 100px;
    
 }
-body{ background-color: black;
+body{ background-color:black;
     font-family:Arial, Helvetica, monospace;
 }
 .iparag{
     border-left: 2px solid red;
     border-right: 2px solid red;
 }
+
 .kep{
     text-align: center;
 }
+.masikoldal{
+    padding-top:50px;
+}
+.szoveg p{
+    text-align: justify;
+    font-weight:lighter;
+    font-size: medium;
+    color:azure
+}
+.szoveg h1{
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    text-align:left;
+
+}
+.szoveg{
+    padding-right: 450px;
+    margin: 0;
+}
+.minta img{
+    float: right;
+    width: 400px;
+}
+
+.harmadik{
+    padding-top: 200px;
+}
+.harmadik .eloszoveg{
+    text-align: center;
+    
+}
+.harmadik .eloszoveg h1{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+}
+.harmadik .profil img{
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    float:inherit;
+}
+.harmadik .profil .elso .gomb a:hover, a:active {
+    background-color:rgb(113, 170, 236);
+}
+.harmadik .profil .elso .gomb a:link, a:visited {
+    background-color:rgb(112, 187, 233);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.harmadik .profil .elso .gomb a{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
 @media screen and (max-width: 500px) {
     #menu ul{
         grid-template-columns: auto ;
